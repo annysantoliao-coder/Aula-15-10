@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TesteBackEnd.css">
+</head>
+<body>
+    
+</body>
+</html>
+<h1>Elaboração do caso de teste</h1>
+<h3>Conceito</h3>
+<p>É um documento estruturado que define um conjunto de condições, ações (passos), dados de entrada e resultados esperados para verificar se uma funcionalidade de um software funciona corretamente.</p>
+
+<h3>Estrutura básica de um caso de teste</h3>
+<ul>
+    <li><b>ID do caso de teste:</b> identificador único.</li>
+    <li><b>Título/Descrição:</b> resumo do que está sendo testado.</li>
+    <li><b>Pré-condições:</b> o que precisa existir ou estar configurado antes de começar.</li>
+    <li><b>Passos de execução:</b> ações sequenciais que o testador deve realizar.</li>
+    <li><b>Resultado esperado:</b> o comportamento correto que o sistema deve apresentar.</li>
+</ul>
+
+<h3>Exemplos práticos</h3>
+<p><i>Exemplo 1:</i> Cenário de sucesso</p>
+<ul>
+    <li><b>ID:</b> CT01</li>
+    <li><b>Título:</b> Login de usuário com credenciais válidas</li>
+    <li><b>Pré-condições:</b> O usuário já possui uma conta cadastrada no sistema.</li>
+    <li><b>Passos:</b></li>
+    <ol>
+        1. Acessar a página de login. <br>
+        2. Inserir um e-mail válido no campo "E-mail". <br>
+        3. Inserir a senha correta no campo "Senha". <br>
+        4. Clicar no botão "Entrar". <br>
+    </ol>
+    <li><b>Resultado esperado:</b> O sistema autentica o usuário e redireciona para a página principal com a mensagem de boas-vindas.</li>
+</ul>
+<p><i>Exemplo 2:</i> Cenário de erro</p>
+<ul>
+    <li><b>ID:</b> CT02</li>
+    <li><b>Título:</b> Tentativa de login com senha incorreta.</li>
+    <li><b>Pré-condições:</b> O usuário já possui uma conta cadastrada no sistema.</li>
+    <li><b>Passos:</b></li>
+    <ol>
+        1. Acessar a página de login. <br>
+        2. Inserir um e-mail válido no campo "E-mail". <br>
+        3. Inserir a senha correta no campo "Senha". <br>
+        4. Clicar no botão "Entrar". <br>
+    </ol>
+    <li><b>Resultado esperado:</b> O sistema impede o acesso e exibe a mensagem de erro: "E-mail ou senha inválidos".</li>
+</ul>
+<hr> <br>
+
+<video width="630" height="360" controls>
+    <source src="criar casos teste.mp4" type="video/mp4">
+</video>

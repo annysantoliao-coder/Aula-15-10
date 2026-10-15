@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TesteBackEnd.css">
+</head>
+<body>
+    <h1>Comunicação com a equipe de automação de testes</h1>
+    <p>A comunicação eficiente com a equipe de automação de testes back-end é fundamental para alinhar expectativas, evitar retrabalho e garantir a confiabilidade das APIs e regras de negócio.</p>
+    <h3>Pilares de uma boa comunicação</h3>
+    <ul>
+        <li><b>Alinhamento de Contratos de API:</b> Defina e documente claramente o formato das requisições e respostas antes de iniciar a codificação, evitando que os testes automatizados quebrem por mudanças inesperadas de campos ou tipos de dados.</li>
+        <li><b>Critérios de Aceite Claros (BDD / Histórias):</b>  Utilize linguagens e critérios bem definidos para que os cenários de teste reflitam exatamente o comportamento esperado pelo negócio e pelo back-end.</li>
+        <li><b>Transparência sobre Falhas e "Flake Tests":</b> uando um teste automatizado falha de forma intermitente, comunique imediatamente a equipe para identificar se o problema está na instabilidade do ambiente, na massa de dados ou em um bug real no código.</li>
+        <li><b>Feedback sobre o Tempo de Execução:</b>  Monitore o tempo que a pipeline de testes back-end leva para rodar. Se os testes estiverem lentos demais, converse com a equipe para priorizar testes unitários e de integração rápidos antes de escalar para testes mais pesados.</li>
+        <li><b>Gestão de Massa de Dados:</b> Alinhe como os dados de teste são criados, resetados ou mascarados no banco de dados para evitar conflitos de concorrência ou dependências entre testes paralelos.</li>
+    </ul>
+</body>
+</html>
